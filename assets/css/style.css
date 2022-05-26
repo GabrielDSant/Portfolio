@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Agustina";
+  src: url(./fonts/Agustina.woff);
+}
+
 html{
     --bg-mybtn: rgb(230, 109, 129);
     --bg-nav: #6617cb;
@@ -43,3 +48,14 @@ body{
   .text-center heading1 exp-head {
     color: white;  
 }
+
+/* sombra foto de perfil */
+.foto-circulo {
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+  -khtml-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+  border-radius:100px;  
+}
+/*
+
